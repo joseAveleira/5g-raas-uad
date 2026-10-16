@@ -29,7 +29,7 @@ Para regenerar únicamente figuras, tablas e informe:
 - `results/followup_metrics.csv`, `followup_predictions.csv.gz`, `retained_features.csv` y `models/`: 52 comparaciones y sus resultados auditables.
 - `results/inner_shift_controls.csv` y `service_shuffled_label_controls.csv`: 60 controles adicionales.
 
-El ZIP de fuentes omite los PCAP derivados y las exportaciones intermedias grandes de TShark; los regenera audit_pcaps.py. Los originales permanecen fuera del proyecto, en recursos. Se incluyen resultados compactos, cabeceras recuperadas, figuras, tablas y código. Los modelos joblib se regeneran y no se distribuyen. Los originales comprimidos están en recursos/; consultar la guía principal y el manifiesto. Esta versión conserva los identificadores de red y no está anonimizada.
+El repositorio omite los PCAP derivados y las exportaciones intermedias grandes de TShark; los regenera audit_pcaps.py. Se incluyen resultados compactos, cabeceras recuperadas, figuras, tablas y código. Los modelos joblib se regeneran y no se distribuyen. Los originales comprimidos están en recursos/ dentro del repositorio; consultar la guía principal y el manifiesto. Esta versión conserva los identificadores de red y no está anonimizada.
 
 ## Interpretación obligatoria
 

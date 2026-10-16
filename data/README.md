@@ -1,6 +1,6 @@
 # Derivados del CSV original
 
-El archivo bruto permanece en `../recursos/ransomware_dataset.csv` respecto a la raíz del proyecto final. No se cambia y no es necesario duplicarlo para compilar el artículo.
+El CSV original se distribuye comprimido en `recursos/`. `scripts/unpack_resources.py` restaura sus bytes originales y comprueba el SHA-256.
 
 | Archivo | Uso |
 |---|---|
