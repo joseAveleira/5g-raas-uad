@@ -1,7 +1,11 @@
 # Licensing
 
-The original `ransomware_dataset.csv` (distributed here as a lossless gzip file) is shared under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), as stated on the original Figshare record. Credit the dataset authors and identify any modifications.
+## Data, results and documentation: CC BY 4.0
 
-An explicit reuse license for the additional captures, analysis code and derived materials has not yet been selected by their authors. Public access alone does not grant an additional reuse license. Contact the corresponding author, Jose Aveleira-Mata (javem@unileon.es), for permission beyond applicable legal exceptions and platform terms.
+The original CSV, both original packet captures, the execution log, derived data tables, annotations, predictions, figures, reports and documentation are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). The [full legal code](https://creativecommons.org/licenses/by/4.0/legalcode.en) applies. Credit the authors listed in `CITATION.cff`, link to the license and indicate changes. The original CSV was already shared under this license on Figshare.
 
-This file records the verified licensing position; it does not extend the original CSV license to other materials without the authors' authorization.
+## Analysis software: MIT
+
+The Python source files, tests, configuration files and dependency lists are licensed under the [MIT License](LICENSES/MIT.txt). Third-party dependencies retain their respective licenses.
+
+The corresponding author authorized these release licenses on 16 October 2026. Network identifiers are retained in the source captures and audit annotations; the data is not anonymized. These licenses do not grant rights in third-party trademarks or imply endorsement by services observed in the captures.

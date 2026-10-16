@@ -3,6 +3,8 @@ message: "If you use this research resource, cite the authors and the specific r
 type: dataset
 title: "5G-RaaS-UAD: traffic data and reproducible analysis"
 version: 1.0.0
+date-released: 2026-10-16
+license: CC-BY-4.0
 repository-code: "https://github.com/joseAveleira/5g-raas-uad"
 url: "https://github.com/joseAveleira/5g-raas-uad"
 authors:

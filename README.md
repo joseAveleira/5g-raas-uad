@@ -83,4 +83,4 @@ Diego Narciandi-Rodríguez; Jose Aveleira-Mata; María Teresa García-Ordás; Ja
 
 Use [`CITATION.cff`](CITATION.cff) to cite the research resource. The manuscript is a work in preparation/submission, not a published journal article. This repository does not assign authorship to software tools.
 
-The original CSV was shared by its creators on [Figshare](https://figshare.com/s/160750e5d36974bb4c71?file=59439863) under CC BY 4.0. The inspected Figshare link was a private sharing link and did not provide a public DOI. Licensing for the additional release materials is described in [LICENSE.md](LICENSE.md).
+The original CSV was shared by its creators on [Figshare](https://figshare.com/s/160750e5d36974bb4c71?file=59439863) under CC BY 4.0. This release uses **CC BY 4.0 for data, results and documentation**, and **MIT for the analysis software**; see [LICENSE.md](LICENSE.md). The inspected Figshare link was a private sharing link and did not provide a public DOI. Cite release `v1.0.0` or a specific commit for reproducibility.
