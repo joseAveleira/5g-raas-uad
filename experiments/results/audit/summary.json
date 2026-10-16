@@ -1,0 +1,55 @@
+{
+  "source_sha256": "a5440e8185b79e90d446a5a710a7f72347767f4b7cd90b697be471534538ae4a",
+  "raw_records": 107694,
+  "retained_records": 56755,
+  "candidate_repeated_records": 50939,
+  "candidate_repeated_percent": 47.29975671810872,
+  "empty_fields": [
+    "eth_src",
+    "eth_dst",
+    "ip_src",
+    "ip_dst",
+    "ip_proto",
+    "ip_len",
+    "ip_ttl",
+    "udp_srcport",
+    "udp_dstport",
+    "udp_length",
+    "tls_handshake_cert_url_url_hash",
+    "icmp_type",
+    "icmp_code"
+  ],
+  "gtp_message_unique_non_null": 1,
+  "gtp_flags_unique_non_null": 1,
+  "teids_observed": 10,
+  "opaque_udp_mf_records": 22522,
+  "opaque_udp_mf_frame_lengths": [
+    1516
+  ],
+  "label_boundary_uncertainty": [
+    [
+      30.069477796554565,
+      33.914137840270996
+    ],
+    [
+      157.26493191719055,
+      157.3673858642578
+    ],
+    [
+      220.17971897125244,
+      220.61686277389526
+    ],
+    [
+      273.6494679450989,
+      273.65450286865234
+    ]
+  ],
+  "temporal_cutoff_s": 157.31615889072418,
+  "max_candidate_group_span_s": 9.775161743164062e-06,
+  "limitations": [
+    "No original PCAP, fragment offsets, payload bytes or exact execution log available.",
+    "Repeated headers within tolerance are candidates, not proof of identical packet bytes.",
+    "Opaque UDP records with MF set cannot be assigned to a particular GTP tunnel from this CSV.",
+    "TEIDs are local grouping keys, not verified device identities."
+  ]
+}

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.joblib
+recursos/*.pcap
+recursos/ransomware_dataset.csv
+experiments/pcap_analysis/results/*_reassembled.csv
+experiments/pcap_analysis/results/*_headers.csv
+experiments/pcap_analysis/results/*.pcap
+*.log
+.DS_Store

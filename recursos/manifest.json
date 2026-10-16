@@ -1,0 +1,34 @@
+[
+  {
+    "file": "ransomware_dataset.csv",
+    "stored_as": "recursos/ransomware_dataset.csv.gz",
+    "original_sha256": "a5440e8185b79e90d446a5a710a7f72347767f4b7cd90b697be471534538ae4a",
+    "original_bytes": 32886791,
+    "stored_bytes": 1847849,
+    "stored_sha256": "52deeae60b4359a52aa7721f20b3fdba24420b2ccb1889ceab32f3b882c63b4c"
+  },
+  {
+    "file": "ransomware-2.pcap",
+    "stored_as": "recursos/ransomware-2.pcap.gz",
+    "original_sha256": "ba5e69d1fd0e2e762b02754d88ec0989a18d63ed8d6c3b91964baa625e5335e5",
+    "original_bytes": 124991822,
+    "stored_bytes": 58735397,
+    "stored_sha256": "042ac5b862a9e225de9d6067487ec513fb23fc1309713c1874125e8d88c0ee86"
+  },
+  {
+    "file": "ransomware-3.pcap",
+    "stored_as": "recursos/ransomware-3.pcap.gz",
+    "original_sha256": "60be00840cc30c247a0cfb529e3ced6ae03fc3f09f42ec123eb41fab7c330b2e",
+    "original_bytes": 114879445,
+    "stored_bytes": 54234841,
+    "stored_sha256": "960a9c26636c485a43ec695ef9afcdef5f2428a2981eb66ab70b13dd52220dd2"
+  },
+  {
+    "file": "attack_log_wireshark.txt",
+    "stored_as": "recursos/attack_log_wireshark.txt",
+    "original_sha256": "dd84e3b381aaefceb56ab87f9bc6390604a24fab3b1d13d8e18a3d65fa27c7fb",
+    "original_bytes": 706,
+    "stored_bytes": 706,
+    "stored_sha256": "dd84e3b381aaefceb56ab87f9bc6390604a24fab3b1d13d8e18a3d65fa27c7fb"
+  }
+]

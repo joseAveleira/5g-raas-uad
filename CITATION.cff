@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this research resource, cite the authors and the specific repository revision."
+type: dataset
+title: "5G-RaaS-UAD: traffic data and reproducible analysis"
+version: 1.0.0
+repository-code: "https://github.com/joseAveleira/5g-raas-uad"
+url: "https://github.com/joseAveleira/5g-raas-uad"
+authors:
+  - family-names: Narciandi-Rodríguez
+    given-names: Diego
+  - family-names: Aveleira-Mata
+    given-names: Jose
+  - family-names: García-Ordás
+    given-names: María Teresa
+  - family-names: Alfonso-Cendón
+    given-names: Javier
+  - family-names: Benavides
+    given-names: Carmen
+  - family-names: García-Rodríguez
+    given-names: Isaías
+abstract: "Original CSV and packet captures from Android ransomware experiments in a private 5G standalone network, with checked header recovery, prepared feature tables, reproducible analysis and explicit distinctions between execution-period labels and experimental-service identity."
+keywords:
+  - 5G standalone
+  - network traffic
+  - dataset
+  - GTP-U
+  - reproducibility
+  - service identification

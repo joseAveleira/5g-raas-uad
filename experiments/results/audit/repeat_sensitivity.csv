@@ -1,0 +1,4 @@
+tolerance_seconds,records,retained,candidate_repeated_records,conflicting_label_groups
+1e-05,107694,56755,50939,0
+0.0001,107694,56755,50939,0
+0.001,107694,56755,50939,0

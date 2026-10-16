@@ -1,0 +1,63 @@
+[
+  {
+    "k": 5,
+    "intersection": 2,
+    "union": 8,
+    "jaccard": 0.25,
+    "shared_features": [
+      "size_mtu_fraction",
+      "tcp_window_size_std"
+    ],
+    "forward_features": [
+      "gtp_length_std",
+      "size_mean",
+      "size_median",
+      "size_mtu_fraction",
+      "tcp_window_size_std"
+    ],
+    "reverse_features": [
+      "opaque_fragment_byte_fraction",
+      "size_mtu_fraction",
+      "size_std",
+      "tcp_len_p90",
+      "tcp_window_size_std"
+    ]
+  },
+  {
+    "k": 10,
+    "intersection": 5,
+    "union": 15,
+    "jaccard": 0.3333333333333333,
+    "shared_features": [
+      "opaque_fragment_fraction",
+      "size_mean",
+      "size_mtu_fraction",
+      "size_std",
+      "tcp_window_size_std"
+    ],
+    "forward_features": [
+      "gtp_length_mean",
+      "gtp_length_p90",
+      "gtp_length_std",
+      "opaque_fragment_fraction",
+      "size_mean",
+      "size_median",
+      "size_mtu_fraction",
+      "size_std",
+      "tcp_len_mean",
+      "tcp_window_size_std"
+    ],
+    "reverse_features": [
+      "iat_burst_fraction",
+      "opaque_fragment_byte_fraction",
+      "opaque_fragment_fraction",
+      "size_mean",
+      "size_mtu_fraction",
+      "size_std",
+      "tcp_len_p90",
+      "tcp_window_size_mean",
+      "tcp_window_size_p90",
+      "tcp_window_size_std"
+    ]
+  }
+]

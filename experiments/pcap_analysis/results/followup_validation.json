@@ -1,0 +1,14 @@
+{
+  "original_csv_matches_pcap3_frames_lengths_microsecond_timestamps": true,
+  "log_label_disagreements": 0,
+  "window_and_service_fits": 52,
+  "shift_controls": 40,
+  "pcap2_attack_periods": "unknown; never assigned from filename or SNI",
+  "service_task": "SNI-derived experimental-service identity, not ransomware detection",
+  "input_sha256": {
+    "attack_log_wireshark.txt": "dd84e3b381aaefceb56ab87f9bc6390604a24fab3b1d13d8e18a3d65fa27c7fb",
+    "ransomware-2.pcap": "ba5e69d1fd0e2e762b02754d88ec0989a18d63ed8d6c3b91964baa625e5335e5",
+    "ransomware-3.pcap": "60be00840cc30c247a0cfb529e3ced6ae03fc3f09f42ec123eb41fab7c330b2e",
+    "ransomware_dataset.csv": "a5440e8185b79e90d446a5a710a7f72347767f4b7cd90b697be471534538ae4a"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "source_filename": "ransomware_dataset.csv",
+  "source_sha256": "a5440e8185b79e90d446a5a710a7f72347767f4b7cd90b697be471534538ae4a",
+  "source_bytes": 32886791,
+  "records": 107694,
+  "columns": 85,
+  "capture_span_seconds": 291.63484477996826,
+  "labels": {
+    "0": 45574,
+    "1": 62120
+  },
+  "empty_fields": [
+    "eth_src",
+    "eth_dst",
+    "ip_src",
+    "ip_dst",
+    "ip_proto",
+    "ip_len",
+    "ip_ttl",
+    "udp_srcport",
+    "udp_dstport",
+    "udp_length",
+    "tls_handshake_cert_url_url_hash",
+    "icmp_type",
+    "icmp_code"
+  ],
+  "exact_duplicate_full_rows": 0,
+  "near_duplicate_status": "not resolved by full-row equality; packet indices/timestamps differ",
+  "blocks": [
+    {
+      "block_id": 1,
+      "label": 0,
+      "records": 20558,
+      "first_row_zero_based": 0,
+      "last_row_zero_based": 20557,
+      "first_observed_s": 0.0,
+      "last_observed_s": 30.069477796554565
+    },
+    {
+      "block_id": 2,
+      "label": 1,
+      "records": 42646,
+      "first_row_zero_based": 20558,
+      "last_row_zero_based": 63203,
+      "first_observed_s": 33.914137840270996,
+      "last_observed_s": 157.26493191719055
+    },
+    {
+      "block_id": 3,
+      "label": 0,
+      "records": 18156,
+      "first_row_zero_based": 63204,
+      "last_row_zero_based": 81359,
+      "first_observed_s": 157.3673858642578,
+      "last_observed_s": 220.17971897125244
+    },
+    {
+      "block_id": 4,
+      "label": 1,
+      "records": 19474,
+      "first_row_zero_based": 81360,
+      "last_row_zero_based": 100833,
+      "first_observed_s": 220.61686277389526,
+      "last_observed_s": 273.6494679450989
+    },
+    {
+      "block_id": 5,
+      "label": 0,
+      "records": 6860,
+      "first_row_zero_based": 100834,
+      "last_row_zero_based": 107693,
+      "first_observed_s": 273.65450286865234,
+      "last_observed_s": 291.63484477996826
+    }
+  ],
+  "boundary_note": "Observed first/last labelled frames are not execution-log boundaries; no log supplied."
+}

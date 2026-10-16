@@ -1,0 +1,86 @@
+position,field,dtype,non_null,missing_percent,unique_non_null,group,proposed_role,reason
+1,frame_number,int64,107694,0.0,107694,network,exclude,"target, absolute time or row index"
+2,frame_time_epoch,float64,107694,0.0,77162,network,exclude,"target, absolute time or row index"
+3,frame_len,int64,107694,0.0,878,network,candidate,inspect encoding and fit preprocessing on training blocks only
+4,frame_time_delta,float64,107694,0.0,10306,network,candidate,inspect encoding and fit preprocessing on training blocks only
+5,frame_time_delta_displayed,float64,107694,0.0,10306,network,candidate,inspect encoding and fit preprocessing on training blocks only
+6,frame_protocols,str,107694,0.0,21,network,derived_indicators,tokenise into declared protocol indicators; never use raw stack string
+7,frame_cap_len,int64,107694,0.0,878,network,candidate,inspect encoding and fit preprocessing on training blocks only
+8,sll_pkttype,int64,107694,0.0,3,network,candidate,inspect encoding and fit preprocessing on training blocks only
+9,eth_src,float64,0,100.0,0,network,exclude,empty in this capture
+10,eth_dst,float64,0,100.0,0,network,exclude,empty in this capture
+11,ip_src,float64,0,100.0,0,network,exclude,empty in this capture
+12,ip_dst,float64,0,100.0,0,network,exclude,empty in this capture
+13,ip_proto,float64,0,100.0,0,network,exclude,empty in this capture
+14,ip_len,float64,0,100.0,0,network,exclude,empty in this capture
+15,ip_ttl,float64,0,100.0,0,network,exclude,empty in this capture
+16,ip_flags_df,bool,107694,0.0,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+17,ip_flags_mf,bool,107694,0.0,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+18,ip_id,str,107694,0.0,39587,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+19,ip_hdr_len,int64,107694,0.0,1,network,presence_only,constant when present; retain only missing/present indicator
+20,ip_dsfield,str,107694,0.0,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+21,udp_srcport,float64,0,100.0,0,network,exclude,empty in this capture
+22,udp_dstport,float64,0,100.0,0,network,exclude,empty in this capture
+23,udp_length,float64,0,100.0,0,network,exclude,empty in this capture
+24,udp_checksum,str,84994,21.078240199082586,872,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+25,udp_stream,float64,84994,21.078240199082586,1,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+26,gtp_message,str,84994,21.078240199082586,1,gtp,presence_only,constant when present; retain only missing/present indicator
+27,gtp_teid,str,84994,21.078240199082586,10,gtp,exclude,"identifier, endpoint/content clue or sequence/checksum"
+28,gtp_length,float64,84994,21.078240199082586,872,gtp,candidate,inspect encoding and fit preprocessing on training blocks only
+29,gtp_flags,str,84994,21.078240199082586,1,gtp,presence_only,constant when present; retain only missing/present indicator
+30,sctp_srcport,float64,148,99.86257358812934,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+31,sctp_dstport,float64,148,99.86257358812934,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+32,sctp_port,float64,148,99.86257358812934,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+33,sctp_checksum,str,148,99.86257358812934,38,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+34,ngap_procedureCode,float64,36,99.9665719538693,9,network,candidate,inspect encoding and fit preprocessing on training blocks only
+35,ip_src_1,str,107694,0.0,4,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+36,ip_dst_1,str,107694,0.0,4,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+37,ip_proto_1,int64,107694,0.0,3,network,candidate,inspect encoding and fit preprocessing on training blocks only
+38,ip_len_1,int64,107694,0.0,878,network,candidate,inspect encoding and fit preprocessing on training blocks only
+39,ip_ttl_1,int64,107694,0.0,1,network,presence_only,constant when present; retain only missing/present indicator
+40,tcp_srcport,float64,19602,81.79842888183185,143,network,candidate,inspect encoding and fit preprocessing on training blocks only
+41,tcp_dstport,float64,19602,81.79842888183185,144,network,candidate,inspect encoding and fit preprocessing on training blocks only
+42,tcp_len,float64,19602,81.79842888183185,457,network,candidate,inspect encoding and fit preprocessing on training blocks only
+43,tcp_flags,str,19602,81.79842888183185,8,network,candidate,inspect encoding and fit preprocessing on training blocks only
+44,tcp_flags_syn,object,19602,81.79842888183185,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+45,tcp_flags_ack,object,19602,81.79842888183185,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+46,tcp_flags_fin,object,19602,81.79842888183185,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+47,tcp_flags_reset,object,19602,81.79842888183185,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+48,tcp_window_size,float64,19602,81.79842888183185,1028,network,candidate,inspect encoding and fit preprocessing on training blocks only
+49,tcp_stream,float64,19602,81.79842888183185,142,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+50,tcp_seq,float64,19602,81.79842888183185,1236,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+51,tcp_ack,float64,19602,81.79842888183185,4564,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+52,tcp_analysis_bytes_in_flight,float64,2890,97.31647074117407,691,network,candidate,inspect encoding and fit preprocessing on training blocks only
+53,tcp_analysis_ack_rtt,float64,1545,98.56537968689064,1488,network,candidate,inspect encoding and fit preprocessing on training blocks only
+54,udp_srcport_1,float64,84994,21.078240199082586,1,network,presence_only,constant when present; retain only missing/present indicator
+55,udp_dstport_1,float64,84994,21.078240199082586,1,network,presence_only,constant when present; retain only missing/present indicator
+56,udp_length_1,float64,84994,21.078240199082586,872,network,candidate,inspect encoding and fit preprocessing on training blocks only
+57,quic_version,str,1468,98.63687856333686,1,network,presence_only,constant when present; retain only missing/present indicator
+58,quic_packet_length,float64,45444,57.80266310100841,573,network,candidate,inspect encoding and fit preprocessing on training blocks only
+59,quic_header_form,float64,45444,57.80266310100841,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+60,quic_long_packet_type,float64,1468,98.63687856333686,3,network,candidate,inspect encoding and fit preprocessing on training blocks only
+61,quic_short,float64,44190,58.96707337456127,1,network,presence_only,constant when present; retain only missing/present indicator
+62,dns_qry_name,str,100,99.9071443163036,14,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+63,dns_qry_type,float64,100,99.9071443163036,3,network,candidate,inspect encoding and fit preprocessing on training blocks only
+64,dns_flags_response,object,100,99.9071443163036,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+65,dns_a,str,28,99.97400040856502,14,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+66,dns_aaaa,str,2,99.99814288632606,1,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+67,dns_count_queries,float64,100,99.9071443163036,1,network,presence_only,constant when present; retain only missing/present indicator
+68,dns_count_answers,float64,100,99.9071443163036,7,network,candidate,inspect encoding and fit preprocessing on training blocks only
+69,http_request_method,str,5,99.99535721581519,1,network,presence_only,constant when present; retain only missing/present indicator
+70,http_request_uri,str,5,99.99535721581519,2,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+71,http_request_full_uri,str,5,99.99535721581519,2,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+72,http_response_code,float64,5,99.99535721581519,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+73,http_user_agent,str,5,99.99535721581519,2,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+74,http_content_length,float64,2,99.99814288632606,1,network,presence_only,constant when present; retain only missing/present indicator
+75,http_host,str,5,99.99535721581519,2,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+76,tls_handshake_type,float64,262,99.75671810871543,2,network,candidate,inspect encoding and fit preprocessing on training blocks only
+77,tls_handshake_version,str,262,99.75671810871543,1,network,presence_only,constant when present; retain only missing/present indicator
+78,tls_record_content_type,float64,562,99.47815105762623,3,network,candidate,inspect encoding and fit preprocessing on training blocks only
+79,tls_handshake_extensions_server_name,str,134,99.87557338384683,46,network,exclude,"identifier, endpoint/content clue or sequence/checksum"
+80,tls_handshake_cert_url_url_hash,float64,0,100.0,0,network,exclude,empty in this capture
+81,icmp_type,float64,0,100.0,0,network,exclude,empty in this capture
+82,icmp_code,float64,0,100.0,0,network,exclude,empty in this capture
+83,label,int64,107694,0.0,2,network,exclude,"target, absolute time or row index"
+84,timestamp_human,str,107694,0.0,73988,network,exclude,"target, absolute time or row index"
+85,type,str,107694,0.0,2,network,exclude,"target, absolute time or row index"

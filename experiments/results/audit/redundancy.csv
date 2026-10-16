@@ -1,0 +1,5 @@
+relationship,records_checked,violations
+frame_cap_len = frame_len,107694,0
+ip_len_1 = frame_len - 16,107694,0
+gtp_length = frame_len - 52,84994,0
+udp_length_1 = gtp_length + 16,84994,0

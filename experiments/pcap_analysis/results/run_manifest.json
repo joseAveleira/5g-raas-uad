@@ -1,0 +1,35 @@
+{
+  "recorded_at_utc": "2026-10-16T10:48:01.973913+00:00",
+  "assembled_from_verified_component_runs": true,
+  "inputs": {
+    "ransomware-2.pcap": "ba5e69d1fd0e2e762b02754d88ec0989a18d63ed8d6c3b91964baa625e5335e5",
+    "ransomware-3.pcap": "60be00840cc30c247a0cfb529e3ced6ae03fc3f09f42ec123eb41fab7c330b2e",
+    "ransomware_dataset.csv": "a5440e8185b79e90d446a5a710a7f72347767f4b7cd90b697be471534538ae4a",
+    "attack_log_wireshark.txt": "dd84e3b381aaefceb56ab87f9bc6390604a24fab3b1d13d8e18a3d65fa27c7fb"
+  },
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "tshark": "TShark (Wireshark) 4.6.4 (v4.6.4-0-g93282876538d).",
+  "packages": {
+    "scapy": "2.7.0",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.0",
+    "joblib": "1.5.3"
+  },
+  "source_sha256": {
+    "audit_pcaps.py": "4f9692364bc2b7b2fd81eb42b75498984b95be4c942672d7394905d586672748",
+    "decode_inner.py": "40db1cbadb7b201924470f9eccd843569c2d5e61bcd386d81fad087c4abce4ba",
+    "evaluate_recovery.py": "00b02c4f8b4942080b16c18b380e0476e818a8b22fb6543294041ce2ab920775",
+    "report_followup.py": "a7e233f2534c96c6a835834c017b7557ea6ed13185f3c87dfc3b6b5a7f5c208e",
+    "run_pcap_study.py": "a8667693bcc050b2b2b09e7c79cebf679a7b3c42660c3613b6574dc8adaed62c",
+    "test_decode.py": "f97edf605a95e809c5765016f96141ac3f7df5552e122c8652515caa06248a43",
+    "validate_followup.py": "1b37dddd75b344795d494f331929d4bddebf0f65957f53b08f2789530332d640",
+    "fields.json": "b5d6a9b8970ec3e6fc6295a6de9be282aeb2c78bc674550d4a3ecf66ac13bf0d",
+    "PROTOCOL.md": "a32a0080de5c9ca398d0915c40434ec2bfb671dfa33cb7d1b33bd678dbf66ba1"
+  },
+  "phase_one_configuration_sha256": "fe636b2094f3932e73654ea73b5a9d13ea5d1c287b66c3129b35fb89d9f1f482",
+  "phase_one_model_code_sha256": "6bff00a0a53f8b9863892924dec159bee885bc00af22c49683219156ba32775a",
+  "validation": "passed"
+}

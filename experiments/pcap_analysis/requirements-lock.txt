@@ -1,0 +1,2 @@
+-r ../requirements-lock.txt
+scapy==2.7.0

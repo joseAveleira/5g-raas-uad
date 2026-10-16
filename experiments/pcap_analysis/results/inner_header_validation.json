@@ -1,0 +1,85 @@
+[
+  {
+    "capture": "ransomware-2",
+    "gtp_inner_observations": 61470,
+    "complete_inner": 45802,
+    "partial_inner_with_complete_transport_headers": 15668,
+    "missing_bytes_counts": {
+      "0": 45802,
+      "44": 11915,
+      "24": 3192,
+      "32": 549,
+      "43": 6,
+      "15": 1,
+      "9": 1,
+      "8": 1,
+      "7": 1,
+      "1": 1,
+      "12": 1
+    },
+    "tshark_complete_agreements": 45802,
+    "tshark_mismatches": 0,
+    "scapy_independent_checks": 657,
+    "parse_errors": 0,
+    "ue_addresses": [
+      "12.1.1.131",
+      "12.1.1.133",
+      "12.1.1.139"
+    ],
+    "directions": {
+      "-1": 38740,
+      "1": 22730
+    },
+    "direction_vs_pdu_type": {
+      "(-1, 0)": 38740,
+      "(1, 1)": 22730
+    },
+    "inner_protocols": {
+      "6": 38350,
+      "17": 23105,
+      "1": 15
+    }
+  },
+  {
+    "capture": "ransomware-3",
+    "gtp_inner_observations": 53758,
+    "complete_inner": 42497,
+    "partial_inner_with_complete_transport_headers": 11261,
+    "missing_bytes_counts": {
+      "0": 42497,
+      "44": 11016,
+      "24": 216,
+      "32": 14,
+      "43": 5,
+      "11": 2,
+      "29": 2,
+      "18": 1,
+      "4": 1,
+      "34": 1,
+      "27": 1,
+      "38": 1,
+      "13": 1
+    },
+    "tshark_complete_agreements": 42497,
+    "tshark_mismatches": 0,
+    "scapy_independent_checks": 604,
+    "parse_errors": 0,
+    "ue_addresses": [
+      "12.1.1.131",
+      "12.1.1.133",
+      "12.1.1.139"
+    ],
+    "directions": {
+      "-1": 38031,
+      "1": 15727
+    },
+    "direction_vs_pdu_type": {
+      "(-1, 0)": 38031,
+      "(1, 1)": 15727
+    },
+    "inner_protocols": {
+      "17": 32715,
+      "6": 21043
+    }
+  }
+]

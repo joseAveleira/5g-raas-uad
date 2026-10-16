@@ -1,0 +1,8 @@
+# attack_log_wireshark
+# Formato por línea:
+# event_id | device | action | iso_wireshark | epoch_s (sec.micro) | epoch_ms | human_action
+# iso_wireshark usa zona Europe/Madrid y microsegundos (coincide con Wireshark display)
+1 | S23_Ultra_1 | START | 2025-11-07 12:56:30.836244 | 1762516590.836244 | 1762516590836 | Empezado ataque S23_Ultra_1
+2 | S23_Ultra_1 | STOP | 2025-11-07 12:58:37.125020 | 1762516717.125020 | 1762516717125 | Detenido ataque S23_Ultra_1
+3 | S23_Ultra_2 | START | 2025-11-07 12:59:40.351755 | 1762516780.351755 | 1762516780351 | Empezado ataque S23_Ultra_2
+4 | S23_Ultra_2 | STOP | 2025-11-07 13:00:33.461704 | 1762516833.461704 | 1762516833461 | Detenido ataque S23_Ultra_2

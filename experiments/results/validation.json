@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "saved_window_cases_recomputed": 92,
+  "window_matrices_checked": 7,
+  "source_unchanged": true,
+  "candidate_groups_shared_across_temporal_split": 0,
+  "deterministic_refits": [
+    {
+      "case": "candidate_collapsed_all_2s_forward_capture_context_forest_42",
+      "max_probability_difference": 2.220446049250313e-16
+    },
+    {
+      "case": "candidate_collapsed_all_2s_forward_selected_5_forest_42",
+      "max_probability_difference": 1.1102230246251565e-16
+    }
+  ],
+  "test_suite": "python -m unittest discover -s experiments/tests -v"
+}

@@ -1,0 +1,14 @@
+\begin{tabularx}{\textwidth}{@{}L r r r r r@{}}
+\toprule
+Feature set & $k$ & LR BA & LR F1 & RF BA & RF F1 \\
+\midrule
+Volume / timing & 14 & 0.746 & 0.778 & 0.703 & 0.750 \\
+Network & 39 & 0.589 & 0.716 & 0.743 & 0.793 \\
+Network + GTP presence & 40 & 0.610 & 0.727 & 0.721 & 0.780 \\
+Network + GTP fields & 44 & 0.610 & 0.727 & 0.723 & 0.772 \\
+Network + GTP + fragments & 46 & 0.610 & 0.727 & 0.723 & 0.772 \\
+GTP only & 5 & 0.684 & 0.717 & 0.748 & 0.769 \\
+Selected 5 & 5 & 0.663 & 0.704 & 0.724 & 0.764 \\
+Selected 10 & 10 & 0.681 & 0.737 & 0.724 & 0.764 \\
+\bottomrule
+\end{tabularx}

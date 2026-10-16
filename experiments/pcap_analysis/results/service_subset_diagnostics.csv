@@ -1,0 +1,10 @@
+case,subset,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,average_precision,tn,fp,fn,tp,test_normal,test_execution
+service_oct_to_nov_prefix20_10s_basic_forest,all_annotated_connections,0.9888888888888889,0.9861111111111112,1.0,0.9722222222222222,0.9859154929577465,1.0,1.0,54,0,1,35,54,36
+service_oct_to_nov_prefix20_10s_basic_forest,only_UEs_with_experimental_service,0.9873417721518988,0.9861111111111112,1.0,0.9722222222222222,0.9859154929577465,1.0,1.0,43,0,1,35,43,36
+service_oct_to_nov_prefix20_10s_basic_forest,positives_and_previously_unseen_other_domains,0.9868421052631579,0.9861111111111112,1.0,0.9722222222222222,0.9859154929577465,1.0,1.0,40,0,1,35,40,36
+service_oct_to_nov_prefix20_10s_directional_forest,all_annotated_connections,1.0,1.0,1.0,1.0,1.0,1.0,1.0,54,0,0,36,54,36
+service_oct_to_nov_prefix20_10s_directional_forest,only_UEs_with_experimental_service,1.0,1.0,1.0,1.0,1.0,1.0,1.0,43,0,0,36,43,36
+service_oct_to_nov_prefix20_10s_directional_forest,positives_and_previously_unseen_other_domains,1.0,1.0,1.0,1.0,1.0,1.0,1.0,40,0,0,36,40,36
+service_oct_to_nov_prefix20_10s_selected_5_forest,all_annotated_connections,0.9888888888888889,0.9907407407407407,0.972972972972973,1.0,0.9863013698630136,1.0,1.0,53,1,0,36,54,36
+service_oct_to_nov_prefix20_10s_selected_5_forest,only_UEs_with_experimental_service,0.9873417721518988,0.9883720930232558,0.972972972972973,1.0,0.9863013698630136,1.0,1.0,42,1,0,36,43,36
+service_oct_to_nov_prefix20_10s_selected_5_forest,positives_and_previously_unseen_other_domains,0.9868421052631579,0.9875,0.972972972972973,1.0,0.9863013698630136,1.0,1.0,39,1,0,36,40,36

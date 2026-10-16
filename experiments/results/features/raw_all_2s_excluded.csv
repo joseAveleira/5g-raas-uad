@@ -1,0 +1,7 @@
+window_id,start,end,reason
+15,30.0,32.0,label_boundary_uncertainty
+16,32.0,34.0,label_boundary_uncertainty
+78,156.0,158.0,label_boundary_uncertainty
+110,220.0,222.0,label_boundary_uncertainty
+136,272.0,274.0,label_boundary_uncertainty
+145,290.0,292.0,partial_capture_end

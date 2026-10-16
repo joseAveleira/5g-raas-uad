@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-16T09:37:16.826850+00:00",
+  "completed_utc": "2026-10-16T09:39:08.125725+00:00",
+  "input_filename": "ransomware_dataset.csv",
+  "input_sha256": "a5440e8185b79e90d446a5a710a7f72347767f4b7cd90b697be471534538ae4a",
+  "config_sha256": "fe636b2094f3932e73654ea73b5a9d13ea5d1c287b66c3129b35fb89d9f1f482",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.0",
+    "joblib": "1.5.3"
+  },
+  "window_fits_reported": 98,
+  "shift_control_fits": 40,
+  "packet_diagnostic_fits": 6,
+  "source_code_sha256": {
+    "run_experiments.py": "322e297be00f3eb66cf52ab5b0a17418be18d9fd8d0ede6f955132d28e9706d8",
+    "src\\__init__.py": "2da97915ee10e921188e3799fd334c699b2b381630d80754f4ff4ab5dd5eafbc",
+    "src\\data.py": "3315e7f025e040dd45608457fe6719a2278d2af66e6679c0516c75433844d18d",
+    "src\\evaluation.py": "6bff00a0a53f8b9863892924dec159bee885bc00af22c49683219156ba32775a",
+    "src\\reporting.py": "43cdd96ac9025365b4049f10b114c3bf54dad2fea9089b16428dae3d33808a2f"
+  },
+  "interpretation": "Exploratory single-session study. Forward temporal test is primary; reverse is a diagnostic. No hyperparameter search or best-test-result selection."
+}

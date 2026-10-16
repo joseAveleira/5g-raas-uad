@@ -1,0 +1,38 @@
+[
+  {
+    "source": "ransomware-2.pcap",
+    "sha256": "ba5e69d1fd0e2e762b02754d88ec0989a18d63ed8d6c3b91964baa625e5335e5",
+    "bytes": 124991822,
+    "packets": 123003,
+    "duration_s": 152.942614,
+    "first_epoch_us": 1761742176161086,
+    "last_epoch_us": 1761742329103700,
+    "byte_identical_network_repeats_1ms": 61501,
+    "retained_network_observations": 61502,
+    "full_frame_repeats_1ms": 4988,
+    "sll_type_pairs": {
+      "4->4": 22745,
+      "3->0": 38756
+    },
+    "truncated_frames": 0,
+    "policy": "Literal bytes after 16-byte SLL header; 1 ms from group anchor; original retained; not proof of capture topology."
+  },
+  {
+    "source": "ransomware-3.pcap",
+    "sha256": "60be00840cc30c247a0cfb529e3ced6ae03fc3f09f42ec123eb41fab7c330b2e",
+    "bytes": 114879445,
+    "packets": 107694,
+    "duration_s": 291.634845,
+    "first_epoch_us": 1762516559808020,
+    "last_epoch_us": 1762516851442865,
+    "byte_identical_network_repeats_1ms": 53832,
+    "retained_network_observations": 53862,
+    "full_frame_repeats_1ms": 2762,
+    "sll_type_pairs": {
+      "4->4": 15764,
+      "3->0": 38068
+    },
+    "truncated_frames": 0,
+    "policy": "Literal bytes after 16-byte SLL header; 1 ms from group anchor; original retained; not proof of capture topology."
+  }
+]

@@ -1,0 +1,8 @@
+matrix,included_windows,complete_grid_bins,empty_complete_bins
+candidate_collapsed_all_1s,213,291,73
+candidate_collapsed_all_2s,116,145,24
+candidate_collapsed_all_5s,50,58,4
+candidate_collapsed_decoded_gtp_1s,210,291,76
+candidate_collapsed_decoded_gtp_2s,115,145,25
+candidate_collapsed_decoded_gtp_5s,49,58,5
+raw_all_2s,116,145,24

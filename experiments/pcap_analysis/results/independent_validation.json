@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "saved_model_cases_verified": 52,
+  "service_refits": [
+    {
+      "case": "service_oct_to_nov_prefix20_10s_basic_forest",
+      "max_probability_difference": 5.551115123125783e-17,
+      "identical_feature_vectors_across_captures": 0
+    },
+    {
+      "case": "service_oct_to_nov_prefix20_10s_directional_forest",
+      "max_probability_difference": 1.1102230246251565e-16,
+      "identical_feature_vectors_across_captures": 0
+    },
+    {
+      "case": "service_oct_to_nov_prefix20_10s_selected_5_forest",
+      "max_probability_difference": 1.1102230246251565e-16,
+      "identical_feature_vectors_across_captures": 0
+    }
+  ],
+  "service_controls": "20 shuffled training-label diagnostics, not formal cluster-aware p-values",
+  "subsets": "Descriptive checks without refitting; same UE means same inner IP within November, not verified physical identity"
+}

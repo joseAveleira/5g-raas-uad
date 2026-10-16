@@ -1,0 +1,10 @@
+{
+  "COMNET-D-26-07547.pdf": {
+    "sha256": "57cecb1de64332ce3963500bdd4b4ed1cd156b0de5a6da85549faa91ac4b04e8",
+    "bytes": 2561868
+  },
+  "ransomware_dataset.csv": {
+    "sha256": "a5440e8185b79e90d446a5a710a7f72347767f4b7cd90b697be471534538ae4a",
+    "bytes": 32886791
+  }
+}
